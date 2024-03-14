@@ -21,7 +21,7 @@ body = """
 email = EmailMessage()
 email['From'] = yourgmail
 email['To'] = sendto
-email['Subject'] = subject
+email['subject'] = subject
 email.set_content(body)
 
 # Create a SSL context
